@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="entete">
+     <nav>
+        <a href="#accueil" class="logo">
+            <div class="icone-logo">🚀</div>
+            <span>PK</span>
+        </a>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <!-- Label en bouton hamburger -->
+        <label for="menu-toggle" class="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="menu-nav">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À Propos</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+    </header>
+
+    <main>
+        <!-- Section accueil -->
+        <section id="accueil" class="heros">
+            <div class="fond-heros"></div>
+            <div class="contenu-heros">
+                <div class="texte-heros">
+                    <h1>Salut, je suis Pascal Kambou 👋</h1>
+                    <p class="sous-titre">Étudiant en Développement d'Application & E-service</p>
+                    <p>
+                        Passionné par l'IA et les nouvelles technologies, actuellement en formation 
+                        à CEDITECH pour devenir expert en intelligence artificielle.
+                    </p>
+                    <a href="https://ceditech.ci/" class="bouton-cta" target="_blank">Apprenons ensemble</a>
+                </div>
+                <div class="conteneur-image-heros">
+                    <div class="image-profil">
+                        <img src="img/profil.jpg" alt="Photo de profil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- À Propos -->
+        <section id="a-propos" class="a-propos">
+            <h2 class="titre-section">À Propos de Moi</h2>
+            <p class="sous-titre-section">Découvrez mon parcours et mes compétences</p>
+            
+            <div class="grille-a-propos">
+                <div class="conteneur-image-a-propos">
+                    <div class="image-ceditech">
+                        <img src="img/Logo-CEDITECH.png" alt="image-ceditech">
+                    </div>
+                </div>
+                <div class="texte-a-propos">
+                    <h3>Formation à CEDITECH</h3>
+                    <p>
+                        Je suis actuellement en formation à CEDITECH, une institution de référence 
+                        en Côte d'Ivoire pour l'apprentissage des technologies de pointe. Ma spécialisation 
+                        se concentre sur l'intelligence artificielle.
+                    </p>
+                    <p>
+                        Mon objectif est de devenir un expert capable de créer des solutions innovantes 
+                        qui utilisent l'IA pour résoudre des problèmes réels et avoir un impact positif 
+                        sur la société.
+                    </p>
+                    
+                    <div class="liste-competences">
+                         <div class="competence-item">Introduction à l'IA et ses Applications</div>
+                         <div class="competence-item">Traitement du Langage Naturel (NLP)</div>
+                         <div class="competence-item">Apprentissage Supervisé & Non Supervisé</div>
+                         <div class="competence-item">Apprentissage par Renforcement</div>
+                         <div class="competence-item">Développement avec TensorFlow</div>
+                         <div class="competence-item">Développement avec PyTorch</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Parcours -->
+        <section id="parcours" class="parcours">
+            <h2 class="titre-section">Mon Parcours</h2>
+            <p class="sous-titre-section">Mes réalisations académiques</p>
+            
+            <div class="grille-parcours">
+                <div class="carte-parcours">
+                    <div class="icone-parcours">🎓</div>
+                    <h3>Formation CEDITECH</h3>
+                    <p class="date">2025 - En cours</p>
+                    <p>
+                        Formation intensive en Intelligence Artificielle et développement web. 
+                        Apprentissage des technologies les plus récentes et des meilleures pratiques 
+                        de l'industrie.
+                    </p>
+                </div>
+
+                <div class="carte-parcours">
+                    <div class="icone-parcours">🌟</div>
+                    <h3>Certifications</h3>
+                    <p class="date">En cours</p>
+                    <p>
+                        Préparation de certifications international en intelligence artificielle pour valider mes compétences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="projets">
+            <h2 class="titre-section">Mes Projets</h2>
+            <p class="sous-titre-section">Découvrez mes réalisations récentes</p>
+
+                <div class="carte-projet">
+                    <div class="image-projet">🌐</div>
+                    <div class="contenu-projet">
+                        <h3>Portfolio Moderne</h3>
+                        <p>
+                            Création d'un portfolio responsive et moderne avec des animations 
+                            fluides et une expérience utilisateur optimale.
+                        </p>
+                        <div class="tags-projet">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <h2 class="titre-section">Contactez-moi</h2>
+            <p class="sous-titre-section">
+                Vous avez un projet ? Une opportunité ? Discutons-en !
+            </p>
+            
+            <div class="infos-contact">
+                <div class="item-contact">
+                    <div class="icone-contact">📧</div>
+                    <h4>Email</h4>
+                    <a href="mailto:pascal.kambou@form.ceditech.ci">pascal.kambou@form.ceditech.ci</a>
+                </div>
+
+                <div class="item-contact">
+                    <div class="icone-contact">📱</div>
+                    <h4>Téléphone</h4>
+                    <a href="tel:+2250123456789">+225 05 75 64 34 71</a>
+                </div>
+
+                <div class="item-contact">
+                    <div class="icone-contact">📍</div>
+                    <h4>Localisation</h4>
+                    <p style="color: #cbd5e1; margin: 0;">Abidjan, Côte d'Ivoire</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="reseaux-sociaux">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/pascal-kambou-37ab182b6" target="_blank" rel="noopener noreferrer" class="icone-social linkedin" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/P-CIV" target="_blank" rel="noopener noreferrer" class="icone-social github" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+        </a>
+    </div>
+    <p>&copy; 2025 Étudiant à CEDITECH - Tous droits réservés</p>
+</footer>
+
+    
+</body>
+</html>
